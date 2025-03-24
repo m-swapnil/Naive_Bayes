@@ -24,19 +24,13 @@ a. Business & Data Understanding
     Column Name = Type - this is output variable and has '2' classes - spam & ham
     Column Name = Text - this is the input variable and contains the sms received by customers'''
 
-# Code modularity must be maintained
 
 # Import all the required libraries and modules
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-
-# imbalanced-learn pipeline is being called in rather than a scikit-learn one.
-# This is because we will be using SMOTE in our pipeline.
-# pip install imblearn
 from imblearn.pipeline import make_pipeline
 from imblearn.over_sampling import SMOTE
-# SMOTE - Synthetic Minority Over-sampling Technique
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 import sklearn.metrics as skmet
@@ -61,7 +55,7 @@ from sqlalchemy import create_engine
 
 conn_string = ("postgresql+psycopg2://{user}:{pw}@localhost/{db}"
                        .format(user = "postgres", # user
-                               pw = "swapnil1989", # password
+                               pw = "pw", # password
                                db = "sms_db")) # database
 
 db = create_engine(conn_string)
