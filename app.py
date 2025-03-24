@@ -8,7 +8,7 @@ import psycopg2
 from sqlalchemy import create_engine
   
 # creating Engine which connect to postgreSQL
-conn_string = 'postgresql+psycopg2://postgres:swapnil1989@localhost:5432/sms_db'
+conn_string = 'postgresql+psycopg2://postgres:pw@localhost:5432/sms_db'
   
 db = create_engine(conn_string)
 conn = db.connect()
