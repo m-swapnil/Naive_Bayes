@@ -50,16 +50,16 @@ A **Flask web application** is also built to allow users to upload an Excel file
 ---
 
 ## **Project Structure**  
-Spam-Detection
-├── 📄 app.py # Flask application
-├── 📄 model_training.py # Machine learning model training
-├── 📄 sms_raw_NB.csv # Dataset file
-├── 📄 processed1 # Trained Naïve Bayes model
-├── 📄 requirements.txt # Required dependencies
-├── 📄 README.md # Project documentation
-└── 📂 templates
-├── 📄 index.html # Upload page
-└── 📄 new.html # Results page
+- 📂 **Spam-Detection**  
+  - 📄 `app.py` - Flask application  
+  - 📄 `model_training.py` - Machine learning model training  
+  - 📄 `sms_raw_NB.csv` - Dataset file  
+  - 📄 `processed1` - Trained Naïve Bayes model  
+  - 📄 `requirements.txt` - Required dependencies  
+  - 📄 `README.md` - Project documentation  
+  - 📂 **templates/**  
+    - 📄 `index.html` - Upload page  
+    - 📄 `new.html` - Results page  
 
 ---
 
