@@ -1,7 +1,7 @@
 # **Spam SMS Detection Using Naïve Bayes & Flask**  
 
 ## **Overview**  
-This project is a **Spam SMS Detection System** that uses **Multinomial Naïve Bayes (MNB)** to classify SMS messages as either **spam** or **ham (not spam)**. The machine learning model is trained using **SMOTE (Synthetic Minority Over-sampling Technique)** to handle class imbalance.  
+This project is a **Spam SMS Detection System** that uses **Multinomial Naïve Bayes (MNB)** to classify SMS messages as either **spam** or **ham (not spam)**. The machine learning model is trained using **SMOTE (Synthetic Minority Over-sampling Technique)** to handle class imbalance.
 
 A **Flask web application** is also built to allow users to upload an Excel file containing SMS messages and get predictions. The results are stored in a **PostgreSQL database**.  
 
